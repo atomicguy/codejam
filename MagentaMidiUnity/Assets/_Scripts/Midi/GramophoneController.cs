@@ -111,24 +111,11 @@ namespace Viorama
             particles.startSpeed = velocity * maxVelocity;
             particles.Emit(particlesPerNote);
 
-
-            //particles.
-//            velocity = _velocityCurve.Evaluate(velocity);
-
-//            _noteOnEvent.Invoke();
-//            _noteOnVelocityEvent.Invoke(velocity);
-//
-//            _floatValue.targetValue = _onValue * velocity;
         }
 
         void NoteOff(MidiChannel channel, int note)
         {
             gramophoneLight.enabled = false;
-//            if (!FilterNote(channel, note)) return;
-//
-//            _noteOffEvent.Invoke();
-//
-//            _floatValue.targetValue = _offValue;
         }
 		#endregion
 		
