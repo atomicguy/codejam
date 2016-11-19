@@ -108,7 +108,7 @@ namespace Viorama
 
             gramophoneLight.enabled = true;
             particles.startColor = noteColor;
-            particles.startSpeed = velocity;
+            particles.startSpeed = velocity * maxVelocity;
             particles.Emit(particlesPerNote);
 
 
